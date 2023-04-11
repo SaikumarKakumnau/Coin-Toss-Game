@@ -1,0 +1,98 @@
+/* Write your CSS here */
+
+.app-container {
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.game-container {
+  background-color: #ffffff;
+  background-size: cover;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  width: 300px;
+  max-width: 500px;
+}
+
+.main-heading {
+  color: #a35200;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .main-heading {
+    font-size: 35px;
+  }
+}
+
+.description {
+  font-size: 20px;
+  color: #334155;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .description {
+    font-size: 25px;
+  }
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+}
+
+.button {
+  background-color: #f9d423;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-right: 10px;
+  padding-bottom: 8px;
+  color: #a35200;
+  font-weight: 500;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+  color: #475569;
+}
+
+@media (min-width: 768px) {
+  .result-container {
+    flex-direction: row;
+  }
+}
+
+.total {
+  margin: 10px;
+  font-weight: 400;
+}
+
+.heads {
+  margin: 10px;
+  font-weight: 400;
+}
+
+.tails {
+  margin: 10px;
+  font-weight: 400;
+}
